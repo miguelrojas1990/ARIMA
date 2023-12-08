@@ -120,6 +120,6 @@ predicciones.index = fechas_prediccion
 print("Predicciones ARIMA:")
 print(predicciones)
 
-# Obtener las predicciones y sus fechas
+# Obtener las predicciones y sus fechas porque no estan saliendo correcta
 predicciones_df = pd.DataFrame({'Fecha': predicciones.index, 'Prediccion': predicciones.values})
 print(predicciones_df)
